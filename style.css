@@ -1,0 +1,60 @@
+.box
+{
+    height:40px;
+    
+
+}
+.gird-container 
+{
+    display:grid;
+}
+.row1 .btn
+{
+    background-color: grey !important;
+   
+}
+.sin, .ln, .cos, .log, .tan, .sqrt, .EXP, .exp, .divide, .times, .minus, .plus
+{
+    background-color: grey !important;
+   
+} 
+.lghtgrey.box:hover
+{
+    background-color: lightgray;
+}
+
+.lghtgrey.box
+{
+    background-color: lightgray !important;
+   
+}
+.row1, .row2, .row3, .row4, .row5 
+{
+    display:grid;
+    grid-gap:50px;
+    grid-template-columns:100px 100px 100px 100px 100px 100px;
+    grid-template-rows:50px; 
+}
+.equal
+{
+    background-color: lightskyblue !important;
+}
+.input
+
+{
+    display: grid;
+    height:100px;
+    width:850px;
+    grid-template-columns: 1fr;
+}
+
+.Intro-text
+{
+    margin-bottom:20px;
+}
+
+.entire-body
+{
+    display:grid;
+    place-items: center;
+}
